@@ -3,7 +3,7 @@
 - Create environment
     * Needs to include pip installation for linear models, and a bunch of other stuff (see data_exploration notebook)
 
-- Add watermark somehwere
+- Add watermark somewhere
 
 - Add discussion of specialized secondary schools in Europe in both main and data_exploration notebooks
 
@@ -14,6 +14,7 @@
 - Figure out if we can make the output of the violin plots one big chunk, instead of scrolling through it
 
 - Add functions and tests for the functions (REQUIRED FOR THIS PROJECT) (we need to think about what we can do that would require testable functions)
+    * Use Travis to automatically run the tests
 
 - Check how often we see `close_to_home` and the covariances with other variables (add this to the end of the analysis notebook [?] or maybe to the model_fitting notebook [?])
     * Then decide if we should interact with `travel_time` as instrument
@@ -27,8 +28,12 @@
     * We can just use model_fitting to fit the actual models and as include maybe a brief discussion of what we do, the deep analysis should be moved to main
 
 
+
 ~~~~~~~~ BELOW HERE IS ORINIGAL README ~~~~~~~~
-# Your Title here
+
+
+# A Brief Analysis on the Marginal Effects of Studying [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/berkeley-stat159-f17/project-3-p2-ka-jo-ta/master)
+
 
 This readme should be written by you, providing a high-level summary for newcomers of what the repository is about, what's where, and what to do to either read the main article or run the various analyses.
 
