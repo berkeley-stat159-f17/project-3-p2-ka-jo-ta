@@ -29,7 +29,7 @@
 
 
 
-~~~~~~~~ BELOW HERE IS ORINIGAL README ~~~~~~~~
+~~~~~~~~ BELOW HERE IS FINAL README (delete everything above once done) ~~~~~~~~
 
 
 # A Brief Analysis on the Marginal Effects of Studying [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/berkeley-stat159-f17/project-3-p2-ka-jo-ta/master)
