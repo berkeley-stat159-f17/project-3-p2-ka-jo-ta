@@ -11,10 +11,6 @@
     * The last two violin plots show that GP school students with low G3 scores seem to have higher G2 and G1 scores, indicative of some kind of bias (easier tests for G2/G1 in GP school? - probably not bc its only in the low end of G3… I’d guess that G3 covers some topics that were not as heavily covered in GP school, which would decrease grade of G3 independent of how well you do in G1/2, meaning that low G3 would have high G1/G2’s?)
     * Might be a remnant of the specialization that secondary schools in europe experience
 
-- Need to figure out why the violin plots are such crappy quality when viewing in git, maybe ask Eli?
-
-- Figure out if we can make the output of the violin plots one big chunk, instead of scrolling through it
-
 - Add functions and tests for the functions (REQUIRED FOR THIS PROJECT) (we need to think about what we can do that would require testable functions)
     * Use Travis to automatically run the tests
 
@@ -23,8 +19,6 @@
     * Also need to add indicators for the different levels of `travel_time` and `reason`
 
 - Add cluster robust SE's to the second regression, clustering by school
-
-- Remove school as an instrument, not valid
 
 - I think we need to move all the discussion of the models to the main.ipynb, which means we need to find a way to print the summary of the models in main
     * We can just use model_fitting to fit the actual models and as include maybe a brief discussion of what we do, the deep analysis should be moved to main
