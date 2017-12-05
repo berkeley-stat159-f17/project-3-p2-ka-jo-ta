@@ -1,3 +1,5 @@
 .ipynb_checkpoints
 *~
 _configtest.o.d
+.cache/
+__pycache__/
