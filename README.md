@@ -1,10 +1,5 @@
 # TO DO
 
-- Create environment
-    * Needs to include pip installation for linear models, and a bunch of other stuff (see data_exploration notebook)
-
-- Add watermark somewhere
-
 - Add discussion of specialized secondary schools in Europe in both main and data_exploration notebooks
 
 - Add some notes about the violin plots in the data_exploration notebook
