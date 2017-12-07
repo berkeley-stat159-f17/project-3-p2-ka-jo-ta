@@ -1,0 +1,13 @@
+name: study
+dependencies:
+  - python=3.6.1
+  - pandas=0.20.1
+  - numpy=1.12.1
+  - matplotlib=2.0.2
+  - seaborn=0.8.0
+  - jupyter
+  - ipykernel
+  - pip:
+    - pytest
+    - linearmodels
+    - statsmodels
