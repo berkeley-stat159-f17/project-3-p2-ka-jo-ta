@@ -1,14 +1,24 @@
 # Brief Analysis on the Marginal Effects of Studying 
 [![Build Status](https://travis-ci.org/berkeley-stat159-f17/project-3-p2-ka-jo-ta.svg?branch=master)](https://travis-ci.org/berkeley-stat159-f17/project-3-p2-ka-jo-ta) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/berkeley-stat159-f17/project-3-p2-ka-jo-ta/master)
 
+As students, we have often wondered what effect an extra hour of studying will have on our grades. When trying to determine whether staying up an extra hour to study for that final exam is truly worth it, we usually are limited by imperfection information and our own superstitions. In this project, we attempt to estimate the "true" marginal effect of studying on students grades. We try to model the effects of studying first using OLS and then various instruments and 2 stage least squares.
 
-This readme should be written by you, providing a high-level summary for newcomers of what the repository is about, what's where, and what to do to either read the main article or run the various analyses.
+# Required Installations
+ The only installation needed to run this repo is Anaconda. Click [here] (https://conda.io/docs/user-guide/install/index.html#regular-installation) to learn about how to install Anaconda. Once installed, you should be good to go!
+ 
+# Using Binder
+We've enabled Binder for this project which allows you to view jupyter notebooks in a executible environment. Feel free to click the link at the top of this READme to launch the binder.
 
-You don't need to replicate your main scientific narrative here, a repository README is meant to convey to anyone who finds your repo a few high-level things, for example:
+# Getting Started
+Download the repo onto your local machine and open your command prompt. Simply type in the following commands to run the analysis:
 
-- Purpose of the repository.
-- Basic instructions to use it: what to install, if any, what to run, etc.  This will vary a lot from repo to repo, so use your judgment.
-- A brief description of what is where (e.g. what important directories are included).
-- Licensing conditions.
+```
+make clean
+make env
+source activate study
+make run
+```
+After all your notebooks have run you should see new files in the results, fig and data directories. Read about our approach and reults in main.ipynb. All the figures from our analysis are saved in the fig directory and our regression are saved in the results directory as dataframes. You can load in these dataframes and work with them as regression instances (i.e. you can call .summary(), .params() etc. click [here](http://www.statsmodels.org/dev/generated/statsmodels.regression.linear_model.OLS.html) for OLS documentation and [here](https://bashtage.github.io/linearmodels/doc/iv/methods.html#linearmodels.iv.model.IV2SLS) for 2SLS documentation)
 
-Look around on Github for inspiration on what people include in their READMEs that you find useful and informative. The [Reproducible Research section](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#reproducible-academic-publications) of the Jupyter Notebook Gallery includes a number of research-oriented links that may be useful.
+# Liscensing
+In an effort to enable reproducible, collabortive reserach our project is subject to the MIT License which allows you to modify, distribute the above code for both private and commerical usage. Visit LICENSE to learn more.
