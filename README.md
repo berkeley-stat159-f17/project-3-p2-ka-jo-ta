@@ -18,7 +18,7 @@ make env
 source activate study
 make run
 ```
-After all your notebooks have run you should see new files in the results, fig, and data directories. Read about our approach and results in main.ipynb. All the figures from our analysis are saved in the fig directory and our regressions are saved in the results directory as dataframes. You can load in these dataframes and work with them as regression instances (i.e. you can call .summary(), .params() etc. click [here](http://www.statsmodels.org/dev/generated/statsmodels.regression.linear_model.OLS.html) for OLS documentation and [here](https://bashtage.github.io/linearmodels/doc/iv/methods.html#linearmodels.iv.model.IV2SLS) for 2SLS documentation)
+After all your notebooks have run you should see new files in the results, fig, and data directories. Read about our approach and results in main.ipynb. All the figures from our analysis are saved in the fig directory and our regressions are saved in the results directory as dataframes. You can load in these dataframes and work with them as regression instances (i.e. you can call `.summary()`, `.params()` etc. click [here](http://www.statsmodels.org/dev/generated/statsmodels.regression.linear_model.OLS.html) for OLS documentation and [here](https://bashtage.github.io/linearmodels/doc/iv/methods.html#linearmodels.iv.model.IV2SLS) for 2SLS documentation)
 
 ## Licensing
 In an effort to enable reproducible, collaborative reserach our project is subject to the MIT License which allows you to modify and distribute the above code for both private and commercial usage. See LICENSE to learn more.
